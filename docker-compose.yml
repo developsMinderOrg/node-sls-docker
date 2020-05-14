@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+    circleci-sls:
+      build:
+        context: .
+        target: base
+      ports:
+        - 3001:80
+      # volumes:
+        # - /code/node_modules
+        # - .:/code
+      command: bin/sh
+      # command: yarn sls:offline dev
