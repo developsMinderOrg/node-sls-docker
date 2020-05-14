@@ -15,4 +15,6 @@ RUN apk add openssh
 
 RUN npm install --unsafe-perm=true -g serverless@1.68.0
 
+RUN npm install --unsafe-perm=true -g typescript
+
 CMD ["bin/sh"]
