@@ -1,0 +1,13 @@
+{
+  "name": "node-sls-docker",
+  "version": "1.0.1",
+  "description": "NodeJS docker image with pre-configured serverless cli",
+  "main": "index.js",
+  "repository": "https://github.com/developsMinderOrg/node-sls-docker.git",
+  "author": "Sofiane Toumert <sofiane.toumert@dropkickstud.io>",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build . -t node-sls-docker:latest",
+    "deploy": ""
+  }
+}
